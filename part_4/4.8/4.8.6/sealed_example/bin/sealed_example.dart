@@ -11,7 +11,7 @@ void addMoney((Money, Money) money) {
     case (RUB(value: > 50000), USD()):
       print(money.$2 + money.$1);
     case _:
-      print('╭∩╮( •̀_•́ )╭∩╮');
+      print('¯\\_(ツ)_/¯');
   }
 }
 
@@ -35,7 +35,7 @@ void rubWorker(RUB rub) {
     case PaperRUB(value: == 50000):
       print('Бумажный рубль - $rub');
     case _:
-      print('Это не правильные рубли ╭∩╮( •̀_•́ )╭∩╮');
+      print('Это не правильные рубли');
   }
 }
 

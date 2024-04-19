@@ -1,6 +1,6 @@
 import 'dart:async';
 
-final censored = '凸( •̀_•́ )凸';
+final censored = '¯\\_(ツ)_/¯';
 
 Future<void> callPrint() async {
   await Future.delayed(

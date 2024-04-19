@@ -34,11 +34,11 @@ enum Country {
         country.index,
       ),
     Country.USA => (
-        '凸( •̀_•́ )凸 ${country.name}',
+        '¯\\_(ツ)_/¯ ${country.name}',
         country.index,
       ),
     Country.India => (
-        '🛕 ${country.name}',
+        '^_^ ${country.name}',
         country.index,
       ),
   };
@@ -54,7 +54,7 @@ void main() {
   print(russia.deptOneMan); // 0.0000013854979507967042
 
   print(whatCountry(russia)); // (ε(´｡•᎑•`)っ 💕 Russia, 0)
-  print(whatCountry(Country.India)); // (🛕 India, 3)
+  print(whatCountry(Country.India)); // (^_^ India, 3)
   print(whatCountry(Country.China)); // (😎 China, 1)
-  print(whatCountry(Country.USA)); // (凸( •̀_•́ )凸 USA, 2)
+  print(whatCountry(Country.USA)); // (¯\_(ツ)_/¯ USA, 2)
 }
