@@ -1,4 +1,4 @@
-String getBigData() {
+Future<String> getBigData() async {
   return 'Гигатонны информации))';
 }
 

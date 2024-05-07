@@ -1,8 +1,8 @@
-String getBigData() {
+Future<String> getBigData() async {
   return 'Гигатонны информации))';
 }
 
-String changeData(String data) {
+Future<String> changeData(String data) async {
   return data.toUpperCase();
 }
 
