@@ -35,7 +35,7 @@ void rubWorker(RUB rub) {
     case PaperRUB(value: == 50000):
       print('Бумажный рубль - $rub');
     case _:
-      print('Это не правильные рубли');
+      print('Это не правильные рубли ╭∩╮( •̀_•́ )╭∩╮');
   }
 }
 
